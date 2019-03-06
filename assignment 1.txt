@@ -1,0 +1,2 @@
+Undefine-mean the valuable has been declared but hasnot yet been assigned value.
+null-it is an assigned value a value or  repesentation.
