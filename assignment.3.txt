@@ -1,0 +1,36 @@
+fruits=["mangoes","grapes","lemon","plams","peas","avacado","banana","water melon","apple"]
+
+fruit ["mangoes", "grapes", "lemon", "plams", "peas", "avacado", "banana", "water melon", "apple"]
+
+
+fruits
+(9) ["mangoes", "grapes", "lemon", "plams", "peas", "avacado", "banana", "water melon", "apple"]
+
+fruits[7]
+"water melon"
+fruits[4]
+"peas"
+
+fruits[0]
+"mangoes"
+
+fruits[2]
+"lemon"
+
+fruits[1]
+"grapes"
+
+fruits[8]
+"apple"
+
+fruits[5]
+"avacado"
+
+fruits[3]
+"plams"
+
+fruits[7]
+"water melon"
+
+fruits[6]
+"banana"
