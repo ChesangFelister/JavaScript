@@ -1,0 +1,45 @@
+
+fruits={"pawpaws":100,"kiwi":150,"orange":30,"apple":35,}
+
+
+{pawpaws: 100, kiwi: 150, orange: 30, apple: 35}
+
+
+var quantity=2
+
+
+undefined
+
+
+var price=fruits["orange"]*quantity
+
+
+undefined
+
+
+price
+60
+function calculateFruitCost (cherries,berries)
+ 
+{
+fruits={"pawpaws":100,"kiwi":150,"orange":30,"apple":35};
+ 
+   
+console.log(quantity + ' ' + cherries+'for KES' +price);}
+
+
+undefined
+
+
+console.log('oranges',2);
+
+
+oranges 2
+
+undefined
+
+
+calculateFruitCost('oranges',2); 
+2 oranges for KES60
+
+undefined
