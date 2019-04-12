@@ -1,0 +1,57 @@
+
+var kiosk={
+fruits:"orange",
+
+
+getfruit:
+
+function(kiosk){
+
+
+return this.fruits;
+},
+
+
+setfruit:function(kiosk){
+
+
+this.fruits=oranges;}
+
+}
+
+undefined
+
+
+console.log(kiosk.getfruit());
+
+
+ orange
+
+function setfruit(){
+  
+
+var kiosk=["orange","mango","kiwi","Apple"];
+ 
+ 
+
+
+function getfruits(){
+
+ 
+ var getfruit=["mango","orange","apple","kiwi"
+ ];
+  
+
+  console.log(kiosk);                 
+                    }
+  return getfruits;
+}
+undefined
+console.log(kiosk);
+VM1275:1 ƒ getfruits(){
+  var getfruit=["mango","orange","apple","kiwi"
+               ];
+    console.log(kiosk);                 
+                    }
+
+undefined
