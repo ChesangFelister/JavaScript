@@ -1,0 +1,24 @@
+class KioskCalc{
+  constructor(fruit,quantity){
+    
+    
+    this.fruitPricelist={"mango":30,"orange":60,"banana":10,"apple":25};
+    this. fruit_name=fruit;
+    this.specific_fruit=this.fruitPricelist[fruit];
+    this. quantity=quantity;
+    
+}
+  getTotalcost(){
+    return this.specific_fruit*this.quantity ;
+  }
+}
+
+
+var current_kioskCalc=new KioskCalc("orange",3);
+console.log(current_kioskCalc.quantity+" "+current_kioskCalc.fruit_name+"for KES"+current_kioskCalc.getTotalcost());
+var current_kioskCalc=new KioskCalc("mango",3);
+console.log(current_kioskCalc.quantity+" "+current_kioskCalc.fruit_name+"for KES"+current_kioskCalc.getTotalcost());
+var current_kioskCalc=new KioskCalc("banana",6);
+console.log(current_kioskCalc.quantity+" "+current_kioskCalc.fruit_name+"for KES"+current_kioskCalc.getTotalcost());
+var current_kioskCalc=new KioskCalc("apple",3);
+console.log(current_kioskCalc.quantity+" "+current_kioskCalc.fruit_name+"for KES"+current_kioskCalc.getTotalcost());
