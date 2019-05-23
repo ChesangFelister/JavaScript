@@ -1,0 +1,195 @@
+cat correction
+class Mkulima {
+  
+  constructor() {
+    this.farms = [];
+    this.vendors = [];
+    this.products = [];
+    this.orders = [];
+  }
+  
+addFarm( farmId, name, farmer, phone, address){
+  let farm={
+    farmId:farmId,
+    name:name,
+    farmer:farmer,
+    phone:phone,
+    address:address,
+    
+    
+  }
+  this.farms.push(farm)
+}
+   getFarm(farmId){
+for(var i=0;i<this.farms.length;i++) {
+  let farm=this.farms[i];
+  if(farm.farmId===farmId){
+return farm
+  }
+}
+     
+}
+  
+  removeFarm (farmId) {
+    let farm=this.getFarm(farmId)
+    let index=this.farms.indexOf(farm);
+    this.farms.splice(index,1)
+    
+  }
+  updateFarm(farmId, name, farmer, phone, address){
+     let farm={
+    farmId:farmId,
+    name:name,
+    farmer:farmer,
+    phone:phone,
+    address:address,
+     }
+    
+    this.farms.push(farm)
+  }
+
+   getFarm(farmId){
+for(var i=0;i<this.farms.length;i++) {
+  let farm=this.farms[i];
+  if(farm.farmId===farmId){
+return farm
+  }
+}
+   }
+  removeFarm (farmId) {
+    let farm=this.getFarm(farmId)
+    let index=this.farms.indexOf(farm);
+    this.farms.splice(index,1)
+    
+  
+}
+  
+addVendor(vendorId, name, phone){
+  let Vendor={
+   vendorId: vendorId,
+    name:name,
+    phone:phone,
+   
+    
+    
+  }
+ this.vendors.push(Vendor)
+}
+   getVendor( vendorId){
+for(var i=0;i<this.vendors.length;i++) {
+  let Vendor=this.vendors[i];
+  if(vendor. vendorId=== vendorId){
+return Vendor
+  }
+}
+     
+}
+  
+  removeVendor ( vendorId) {
+    let Vendor=this.getVendor( vendorId)
+    let index=this.Vendor.indexOf(Vendor);
+    this.Vendor.splice(index,1)
+    
+  }
+  
+      updateProduct(productId,name,price){
+      let product={
+       productId:productId,
+       name:name,
+       price:price,
+   
+ }
+      this.products.push(product)
+      
+    }
+
+ 
+  getProduct(productId){
+    for(var i=0;i<this.products.length;i++) {
+  let product=this.products[i];
+  if(product.productId===productId){
+return product
+  }
+ }
+}
+  calculateOrderCost(productId, quantity){
+  return this.products*quantity
+  }
+     createOrder(productId, quantity, farmId, storeId){
+   let order={
+    productId:productId,
+   quantity:quantity,
+     farmId:farmId,
+     storeId:storeId,
+
+ }
+
+}
+var mkulima=new Mkulima();
+mkulima.addFarm(1,"shamba","Hero ","094563728","kinge")
+console.log(mkulima.farms)
+
+
+mkulima.addFarm(2,"farmer","vanann","0792827309","manta")
+ console.log(mkulima.farms)
+ mkulima.removeFarm(1)
+  console.log(mkulima.farms)
+
+mkulima.updateFarm(1,"farmer","kimbf","09936876779")
+console.log(mkulima.farms)
+
+mkulima.addVendor(1,"vendors","09936876779")
+ console.log(mkulima.vendors)
+mkulima.removeVendor(1)
+console.log(mkulima.vendors)
+var mkulima=new Mkulima();
+mkulima.addProduct(1,"shamba","Hero ","094563728","kinge")
+console.log(mkulima.product)
+
+answer
+[[object Object] {
+  address: "kinge",
+  farmer: "Hero ",
+  farmId: 1,
+  name: "shamba",
+  phone: "094563728"
+}]
+[[object Object] {
+  address: "kinge",
+  farmer: "Hero ",
+  farmId: 1,
+  name: "shamba",
+  phone: "094563728"
+}, [object Object] {
+  address: "manta",
+  farmer: "vanann",
+  farmId: 2,
+  name: "farmer",
+  phone: "0792827309"
+}]
+[[object Object] {
+  address: "manta",
+  farmer: "vanann",
+  farmId: 2,
+  name: "farmer",
+  phone: "0792827309"
+}]
+[[object Object] {
+  address: "manta",
+  farmer: "vanann",
+  farmId: 2,
+  name: "farmer",
+  phone: "0792827309"
+}, [object Object] {
+  address: undefined,
+  farmer: "kimbf",
+  farmId: 1,
+  name: "farmer",
+  phone: "09936876779"
+}]
+[[object Object] {
+  name: "vendors",
+  phone: "09936876779",
+  vendorId: 1
+}]
+
