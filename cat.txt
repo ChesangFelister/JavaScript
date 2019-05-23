@@ -1,0 +1,84 @@
+class Mkulima {
+  
+  constructor() {
+    this.farms = [];
+    this.vendors = [];
+    this.products = [];
+    this.orders = [];
+  }
+
+  addFarm(farmid,name,farmer,phone,address){
+    farmid:"farmi"
+    name:name
+    farmer:farmer
+    phone:phone
+    address:address
+    return this.farms(farmid)
+    
+  }
+  removeFarm(farmid){
+    farmid=[2453,3453,890,988,456,]
+    return this.farms(removeFarm)
+  }
+  updateFarm(farmid,name,farmer,phone,address){
+    this.farmid=farmid
+    this.name=name
+    this.farmer=farmer
+    this.phone=phone
+    this.address=address
+    
+    return this.farms()
+  }
+  
+  getfarm(farmid){
+    farmid=farmid
+    returnthis.farm(removefarm)
+  }
+  
+  addVendor( vendorId, name, phone){
+    vendorid:id
+     name:name
+      phone=number
+      return this.Vendor(addVendor)
+     
+  }
+  removeVendor(vendorId){
+  return (addVendor(VendourId))
+  
+
+}
+addProduct(productId, name, price){
+  var product=["productId":"7yt78tg5","name":"mavuno",price:500]
+  return product
+  
+}
+removeProduct( productId){
+  return addProduct(product("productId"))
+  
+  
+}
+updateProduct(productId, name, price){
+  var diva={"productId":"67YTH8N9M7","name":"Diva","price":4000}
+  return this.vendor(diva)
+  
+  
+}
+getProduct(productId){
+  return this.productId
+  
+}
+printProducts(){
+  var product=new product("diva",500,"MAV",300,"BGE",1000)
+  console.log(product+" "+new product) 
+}
+calculateOrderCost(productId, quantity){
+  var product=new product("diva",500,"MAV",300,"BGE",1000)
+  console.log(product+" "+new product)
+  
+}
+createOrder( productId, quantity, farmId, store){
+list={productId:"TYE34F5R56G8", "quantity":3000, "farmId":T5Y7H89J0, "store":"Jumbo"}
+console.log(list);
+  
+  
+}
