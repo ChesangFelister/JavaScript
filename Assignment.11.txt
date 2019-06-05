@@ -1,0 +1,95 @@
+Questions: 
+1.Change document background color to silver 
+2.Change the font color for h1 title tag to green
+3.Change the font case for h3 title tags to uppercase
+4.Add one more fruit to the fruits list
+5.Add one more vegetable to the vegetables list
+
+ANSWERS
+
+
+var body = document.body
+body.style.backgroundColor="silver"
+var h1=document.getElementById("title")
+h1.style.color="green"
+
+
+var h3=document.getElementById("h3")
+h3.innerHTML= h3.innerHTML.toUpperCase()
+
+var veg=document.getElementById("veg")
+veg.innerHTML= veg.innerHTML.toUpperCase()
+
+
+var li = document.createElement("li")
+li.innerHTML="Kiwi"
+
+var fruits=document.createElement("fruList")
+fruList.appendChild(li)
+
+
+var li = document.createElement("li")
+li.innerHTML="Garlic"
+
+var Vegetables=document.createElement("vegList")
+vegList.appendChild(li)
+
+
+Async And Await
+
+
+async means one operaton can be carried at atime
+Extensional promises
+
+
+example of async function
+
+async fuction add(a,b){
+return a+b;}
+
+
+
+
+The async function has two effects:
+
+Makes it always return a promise.
+Allows to use await in it.
+The await  before a promise makes JavaScript wait until that promise settles, and then:
+
+If it’s an error, the exception is generated, same as if throw error were called at that very place.
+Otherwise, it returns the result, so we can assign it to a value.
+Together they provide a great framework to write asynchronous code that is easy both to read and write.
+
+With async/await we rarely need to write promise.then/catch, 
+but we still shouldn’t forget that they are based on promises,
+ because sometimes (e.g. in the outermost scope) we have to use these methods.
+ Also Promise.all is a nice thing to wait for many tasks simultaneously.
+
+Example of async await 
+
+async function asyncGreetings() {
+  console.log('Hi');
+  var result = await resolveAfter2Seconds();
+  console.log(result);
+  
+}
+asyncGreetings();
+
+Async Example
+
+async function hello() {
+  return 'Hello Chesang Felister!';
+}
+
+const b = hello( );
+async function message(x) {
+  try {
+    const msg = await caserUpper(x);
+    console.log(message);
+  } catch(err) {
+
+  }
+}
+
+message('Chesang'); 
+ 
