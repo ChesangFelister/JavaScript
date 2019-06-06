@@ -14,7 +14,7 @@ var h1=document.getElementById("title")
 h1.style.color="green"
 
 
-var h3=document.getElementById("h3")
+var h3=document.getElementById("h3")   the id adde in html
 h3.innerHTML= h3.innerHTML.toUpperCase()
 
 var veg=document.getElementById("veg")
@@ -62,8 +62,8 @@ Together they provide a great framework to write asynchronous code that is easy 
 
 With async/await we rarely need to write promise.then/catch, 
 but we still shouldn’t forget that they are based on promises,
- because sometimes (e.g. in the outermost scope) we have to use these methods.
- Also Promise.all is a nice thing to wait for many tasks simultaneously.
+ 
+ 
 
 Example of async await 
 
