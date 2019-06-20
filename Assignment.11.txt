@@ -14,7 +14,7 @@ var h1=document.getElementById("title")
 h1.style.color="green"
 
 
-var h3=document.getElementById("h3")   the id adde in html
+var h3=document.getElementById("h3")   the id added in html
 h3.innerHTML= h3.innerHTML.toUpperCase()
 
 var veg=document.getElementById("veg")
