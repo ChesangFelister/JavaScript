@@ -1,0 +1,32 @@
+var fruit = document.getElementsByClassName("collapsible");
+var i;
+for (i = 0; i < fruit.length; i++) {
+  fruit[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var fruList = this.nextElementSibling;
+    if (fruList.style.display === "block") {
+      fruList.style.display = "none";
+    } else {
+      fruList.style.display = "block";
+    }
+  });
+}
+
+var ve = document.getElementsByClassName("collapse");
+var i;
+for (i = 0; i < veg.length; i++) {
+  veg[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var vegList = this.nextElementSibling;
+    if (vegList.style.display === "block") {
+      vegList.style.display = "none";
+    } else {
+      vegList.style.display = "block";
+    }
+  });
+}
+ var veg=document.getElementById("collapse")
+function getVegetable(){
+   return veg.value
+ }
+collapse.addEventListener("onclick",()=> alert(getVegetable()))
